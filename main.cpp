@@ -1,15 +1,11 @@
+// Headers
+#include "./linked_list.hpp"
+
+// std 
 #include <iostream>
 
-class App {
-    public:
-        App() {
-            std::cout << "App" << std::endl;
-        }
-};
+int main() { 
 
-int main() {
-    
-    App* myApp = new App();
-
+    LinkedList list = LinkedList();
     return 0;
 }
