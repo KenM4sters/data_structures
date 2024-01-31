@@ -2,6 +2,7 @@
 
 LinkedList::LinkedList() {
     std::cout << "linked list instantiated!" << std::endl;
+    head = NULL;
  
 }
 
@@ -9,15 +10,15 @@ char LinkedList::menu() {
 
 }
 
-void LinkedList::insert(Node* &head, Node* &tail, int data) {
+void LinkedList::insert(int data) {
 
 }
 
-void LinkedList::insertAsFirst(Node* &head, Node* &tail, int data) {
+void LinkedList::insertAsFirst(int data) {
 
 }
 
-void LinkedList::remove(Node* &head, Node* &last) {
+void LinkedList::remove() {
 
 }
 

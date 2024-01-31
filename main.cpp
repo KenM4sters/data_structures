@@ -6,6 +6,6 @@
 
 int main() { 
 
-    LinkedList list = LinkedList();
+    LinkedList list;
     return 0;
 }

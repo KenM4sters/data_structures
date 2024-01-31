@@ -2,19 +2,20 @@
 
 #include <iostream>
 
+struct Node {
+    int data;
+    Node* next;
+};
+
 class LinkedList {
     public:
-        struct Node {
-            int data;
-            Node* next;
-        };
-
+        Node* head;
         LinkedList();
 
         char menu();
-        void insert(Node* &head, Node* &tail, int data);
-        void insertAsFirst(Node* &head, Node* &tail, int data);
-        void remove(Node* &head, Node* &last);
+        void insert( int data);
+        void insertAsFirst( int data);
+        void remove();
         bool isEmpty(Node* head);
         void showList(Node* current);
 
