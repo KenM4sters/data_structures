@@ -1,4 +1,4 @@
-### Data Structures in C++
+# Data Structures in C++
 ---
 The purpose of this repository is to show the implementation of several different data structures
 in C++. 
@@ -16,6 +16,6 @@ in C++.
 
 ## Resources
 ---
-# See below for a non-exhaustive list of some of the resources that I found were helpful 
+### See below for a non-exhaustive list of some of the resources that I found were helpful 
 
 1. [Comprehensive](https://www.youtube.com/watch?v=B31LgI4Y4DQ&t=3954s)
