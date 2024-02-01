@@ -1,11 +1,15 @@
 // Headers
-#include "./linked_list.hpp"
+#include "./singly_linked_list.hpp"
 
 // std 
 #include <iostream>
 
 int main() { 
 
-    LinkedList list;
+    SinglyLinkedList list;
+    list.insert(10);
+    list.insert(20);
+    list.printList();
+
     return 0;
 }
