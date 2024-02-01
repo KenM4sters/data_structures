@@ -46,12 +46,49 @@ void SinglyLinkedList::insert(int data) {
 
 }
 
-void SinglyLinkedList::insertAsFirst(int data) {
+void SinglyLinkedList::insertAt(int data, int nodeOffset) {
+    Node *temp1 = head, *temp2 = NULL;
+    int listLength = 0;
 
+    // New node with out data
+    Node* newNode = new Node;
+    newNode->data = data;
+    newNode->next = NULL;
+
+    // If the node offset is 1, then we set our head as the new node
+    if(nodeOffset == 1) {
+        newNode->next = head;
+        head = newNode;
+        return;
+    }
+    // Getting the length of the list
+    while(temp1 != NULL) {
+        temp1 = temp1->next;
+        listLength++;
+    }
+    // Checking if the node offset is beyond the length of the list
+    if(listLength < nodeOffset) {
+        cout << "node offset is out of range!" << endl;
+        return;
+    }
+
+    // IMPORTANT - reset temp1 back to point to the head again, since we 
+    // made it point to null when we got the length of the list
+    temp1 = head;
+    // Traverse through the nodes until temp1 points to the node offset
+    while(nodeOffset-- > 1) {
+        temp2 = temp1;
+        temp1 = temp1->next;
+    }
+
+    // Our new node should contain a pointer to the node that temp1 pointed to
+    newNode->next = temp1;
+    // Then we can change the pointer of the temp2 node to point to our node instead of temp1
+    temp2->next = newNode;
+    
 }
 
 void SinglyLinkedList::remove(int nodeOffset) {
-    // temp2 is needed here
     Node *temp1 = head, *temp2 = NULL;
     int listLength = 0;
 

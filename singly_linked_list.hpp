@@ -18,7 +18,7 @@ class SinglyLinkedList {
 
         char menu();
         void insert(int data);
-        void insertAsFirst(int data);
+        void insertAt(int data, int nodeOffset);
         void remove(int nodeOffset);
         bool isEmpty();
         void printList();

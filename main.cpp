@@ -11,7 +11,7 @@ int main() {
     list.insert(20);
     list.insert(50);
     list.printList();
-    list.remove(2);
+    list.insertAt(100, 3);
     list.printList();
 
     return 0;
