@@ -1,12 +1,15 @@
+#pragma once
 
-class Stack_Arrays {
+#define MAX_SIZE 10
+
+class Stack_Array {
     private:
         int maxSize;
         int top;
-        int array[];
+        int array[MAX_SIZE];
 
     public:
-        Stack_Arrays(int max) : maxSize(max), top(-1) {};
+        Stack_Array(int max) : maxSize(max), top(-1) {};
         bool isEmpty();
         bool isFull();
         void push(int element);

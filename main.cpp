@@ -18,7 +18,7 @@ int main() {
         list.printList();
     */
 
-    Stack_Arrays stack = Stack_Arrays(10);
+    Stack_Array stack = Stack_Array(10);
     stack.push(3);
     stack.push(5);
     stack.push(7);

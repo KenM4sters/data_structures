@@ -5,14 +5,15 @@ in C++.
 
 ## Road Map
 ---
-1. Singly Linked Lists (complete)
-4. Stack - Linked Lists (on-going)
-3. Stack - Arrays
-2. Doubly Linked Lists
-5. Queues
-6. Trees
-7. Graphs
-8. Hash Tables
+1. Singly Linked List (complete)
+2. Stack - Array (complete)
+3. Queue - Array (on-going)
+4. Queue - Linked List
+5. Stack - Linked List (on-going)
+6. Doubly Linked List
+7. Tree
+8. Graph
+9. Hash Table
 
 ## Resources
 ---

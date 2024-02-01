@@ -1,21 +1,21 @@
-#include "./stacks_arrays.hpp"
+#include "./stack_array.hpp"
 #include <iostream>
 using namespace std;
 
 // Check if the stack(array) is empty - returns either true or false
-bool Stack_Arrays::isEmpty() {
+bool Stack_Array::isEmpty() {
     return top == -1;
 }
 
 // Check if the stack(array) is full - returns either true or false
-bool Stack_Arrays::isFull() {
+bool Stack_Array::isFull() {
     // Stack starts at -1 as opposed to 0 to indicate an empty stack, 
     // so we need to -1 off the maxSize
     return top == maxSize -1;
 }
 
 // Function to add an element to the stack
-void Stack_Arrays::push(int element) {
+void Stack_Array::push(int element) {
     // Check if the stack is full (can't add any more elements)
     if(!isFull()) {
         // increment top by 1 
@@ -29,7 +29,7 @@ void Stack_Arrays::push(int element) {
 }
 
 // Function to remove an element form the stack
-void Stack_Arrays::pop() {
+void Stack_Array::pop() {
     // Check if the stack is empty (can't remove an element)
     if(!isEmpty()) {
         int poppedElement = array[top];
@@ -41,7 +41,7 @@ void Stack_Arrays::pop() {
 }
 
 // Function to return the current top value of the stack
-int Stack_Arrays::peek() {
+int Stack_Array::peek() {
     if(!isEmpty()) 
         return array[top];
     else    
