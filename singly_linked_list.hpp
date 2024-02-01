@@ -19,7 +19,7 @@ class SinglyLinkedList {
         char menu();
         void insert(int data);
         void insertAsFirst(int data);
-        void remove(int data);
+        void remove(int nodeOffset);
         bool isEmpty();
         void printList();
 
