@@ -7,13 +7,13 @@ in C++.
 ---
 1. Singly Linked List (complete)
 2. Stack - Array (complete)
-3. Queue - Array (on-going)
+3. Queue - Array (complete)
+9. Hash Table (complete)
 4. Queue - Linked List
 5. Stack - Linked List (on-going)
 6. Doubly Linked List
 7. Tree
 8. Graph
-9. Hash Table
 
 ## Resources
 ---
