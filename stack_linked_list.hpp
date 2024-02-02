@@ -1,6 +1,10 @@
 #pragma once
-
 #include <iostream>
+
+/*
+    Stack header file - Linked List
+*/
+
 
 class Node {
     public:

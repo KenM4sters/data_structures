@@ -1,6 +1,9 @@
 #include "./stack_linked_list.hpp"
 #include <cassert>
 
+/*
+    Stack implementation - Linked List
+*/
 
 void Stack_LinkedList::push(int data) {
     Node* temp = new Node(data);

@@ -1,6 +1,9 @@
 #pragma once
-
 #define MAX_SIZE 10
+
+/*
+    Stack header file - Array
+*/
 
 class Stack_Array {
     private:

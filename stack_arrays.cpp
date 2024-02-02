@@ -2,6 +2,10 @@
 #include <iostream>
 using namespace std;
 
+/*
+    Stack implementation - Array
+*/
+
 // Check if the stack(array) is empty - returns either true or false
 bool Stack_Array::isEmpty() {
     return top == -1;
